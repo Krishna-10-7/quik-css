@@ -1,0 +1,73 @@
+/* Base styles and reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Default container */
+.container {
+    width: 90%;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Default form elements */
+input, textarea {
+    border: 1px solid #d6d6d6;
+    outline: none;
+    border-radius: 4px;
+    padding: 6px;
+    cursor: auto;
+}
+
+form button {
+    background: #fff;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+/* Default table styles */
+table {
+    padding: 0;
+    background: #fff;
+    border-collapse: collapse;
+    line-height: 2.5rem;
+    color: black;
+}
+
+th {
+    border-bottom: 1px solid #d6d6d6;
+    padding: 0 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+tr {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+td {
+    padding: 0 10px;
+}
+
+/* Default list styles */
+ul {
+    list-style: none;
+    color: black;
+}
+
+li, a {
+    text-decoration: none;
+    color: black;
+} 
